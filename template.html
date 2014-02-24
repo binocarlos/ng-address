@@ -1,0 +1,34 @@
+<form class="form" role="form">
+    <div class="form-group">
+        <label for="addressname">Your Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter name" ng-model="address.name">
+    </div>
+    <div class="form-group">
+        <label for="addressline1">Address Line 1</label>
+        <input type="text" class="form-control" id="line1" placeholder="Enter address" ng-model="address.line1">
+    </div>
+    <div class="form-group">
+        <label for="addressline2">Address Line 2</label>
+        <input type="text" class="form-control" id="line2" placeholder="Enter address" ng-model="address.line2">
+    </div>
+    <div class="form-group">
+        <label for="addressline2">City</label>
+        <input type="text" class="form-control" id="city" placeholder="Enter city" ng-model="address.city">
+    </div>
+    <div class="form-group">
+        <label for="addressline2">Region</label>
+        <input type="text" class="form-control" id="state" placeholder="Enter region" ng-model="address.state">
+    </div>
+    <div class="form-group">
+        <label for="addresspostcode">Postcode</label>
+        <input type="text" class="form-control" id="zip" placeholder="Enter postcode" ng-model="address.zip">
+    </div>
+    <div class="form-group">
+        <label for="addresscountry">Country</label>
+        <select class="form-control" id="country" ng-model="country" ng-options="c.name for c in countries"></select>        
+    </div>
+    <div class="form-group">
+        <label for="addressname">Notes</label>
+        <textarea class="form-control" id="notes" ng-model="address.notes"></textarea>
+    </div>
+</form>

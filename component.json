@@ -1,0 +1,13 @@
+{
+  "name": "ng-address",
+  "description": "Angular directive that renders an address form with a full list of countries.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "dependencies": {
+    
+  }
+}
